@@ -24,4 +24,4 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build . --file Dockerfile --tag vitorredfox/blog-app:$(date +%s)
-        docker push vitorredfox/blog-ap
+        docker push vitorredfox/blog-app
